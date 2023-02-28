@@ -1,3 +1,9 @@
+Original repository.    
+https://github.com/istio-ecosystem/istio-coredns-plugin.     
+
+**UPDATE**:  этот плагин больше не нужен с версии Istio 1.8. DNS встроен в агент istio в коляске. По умолчанию в профиле включен Sidecar DNSpreview. Вы также можете включить его вручную, установив следующую конфигурацию в операторе istio
+
+
 **UPDATE**: _This plugin is no longer necessary as of Istio 1.8. DNS is built into the istio agent in the sidecar. Sidecar DNS is enabled by default in the `preview` profile. You can also enable it manually by setting the following config in the istio operator_
 ```yaml
   meshConfig:
